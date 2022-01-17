@@ -13,6 +13,7 @@ Este repositorio tiene como finalidad a ayudar a programadores de la vieja escue
 - [Editores de Programación](##EditoresdeProgramación)
 - [Metodología](##Metodología)
 - [Desarrollo](##Desarrollo)
+- [Base de Datos](##BasedeDatos)
 
 ## Inicio
 
@@ -78,5 +79,15 @@ Para las herramientas que nosotros manejamos en desarrollo web, los fullstacks d
 | -------- | --------|-------- |
 |Sql Server o MySQL|.net core api|angular, vue.js|
 |CosmoDB, MongoDB|.net core api|angular, vue.js|
+
+## Base de Datos
+
+Al momento de elegir una base de datos, debemos saber el tipo de información que vamos a almacenar, cada que tiempo vamos a acceder a la misma y cual es la finalidad de la información que deseamos almacenar.
+
+- Base de datos relacionar **(SQL):** 
+- Base de datos no relacionar **(NoSQL):**
+- Blob de archivos **Blob Storage:**
+- Tablas de datos **Table Storage:**
+
 
 <a href=''></a>
