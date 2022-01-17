@@ -89,5 +89,16 @@ Al momento de elegir una base de datos, debemos saber el tipo de información qu
 - Blob de archivos **Blob Storage:**
 - Tablas de datos **Table Storage:**
 
+## Manejo de versiones
+
+GIT.
+SVN.
+Team Foundation Service.
+Visual Sourcesafe.
+Azure DevOps.
+
+## Construir Proyectos
+Docker.
+Kubernetes.
 
 <a href=''></a>
