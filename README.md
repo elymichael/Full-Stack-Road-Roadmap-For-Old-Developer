@@ -81,10 +81,22 @@ Para el desarrollo de frontend, ver los siguientes enlaces de algunos frameworks
 - [x] Webpack, Gulp, Babel.
 
 Para las herramientas que nosotros manejamos en desarrollo web, los fullstacks deben tener claro como debe estar diseñada la plataforma de desarrollo:
+
 |Databases | Backend | Frontend|
 | -------- | --------|-------- |
 |Sql Server o MySQL|.net core api|angular, vue.js|
 |CosmoDB, MongoDB|.net core api|angular, vue.js|
+
+Existen unos conceptos básicos que si lo aprenden, sin importa la tecnología, pueden moverse entre una tecnología y otra sin muchas dificultades. Esos conceptos son los que manejan esos desarrolladores que se dedican a hacer tutoriales de programación en varias tecnologías:
+
+- [x] Routing.
+- [x] Controllers, ViewModels, Services.
+- [x] State Management.
+- [x] Session, Cookies, Storages.
+- [x] Error Handler.
+- [x] Injection.
+- [x] Git.
+- [x] Packages.
 
 ### Si deseas abundar más sobre programación, te dejo algunos enlaces donde he estudiado algunos cursos que me han interesado:
 - [x] <a href='https://codewithmosh.com/p/asp-net-mvc'>Asp Net Core MVC</a>.
@@ -117,4 +129,4 @@ No tenemos que ser un experto en docker para ser un buen fullstack developer, pe
   
 ## Conclusión
   
-Te damos las gracias por pasar por este artículo con el que buscamos aportar nuestro granito de arena para que buenos programadores puedan mejorar la forma de trabajar y romper con las barreras que no le permiten moverse de las posiciones donde se encuentran. Si quieren aportar a este artículo, son bienvenidos a realizar un PR con información que le pueda sumar a otros programadores.
+Te damos las gracias por pasar por este artículo con el que buscamos aportar nuestro granito de arena para que buenos programadores puedan mejorar la forma de trabajar y romper con las barreras que no le permiten moverse de las posiciones donde se encuentran. Si quieren aportar a este artículo, son bienvenidos a realizar un PR con información que le pueda sumar a otros programadores. Si desea seguir aprendiendo por tu cuenta de Ciencia de la Computación, dale un vistazo al siguiente enlace: https://github.com/ossu/computer-science.
