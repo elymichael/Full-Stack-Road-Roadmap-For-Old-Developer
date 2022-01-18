@@ -14,6 +14,8 @@ Este repositorio tiene como finalidad a ayudar a programadores de la vieja escue
 - [Metodología](##Metodología)
 - [Desarrollo](##Desarrollo)
 - [Base de Datos](##BasedeDatos)
+- [Manejo de Versiones](##ManejodeVersiones)
+- [Construir tus Proyectos](##ConstruirtusProyectos)
 
 ## Inicio
 
@@ -72,7 +74,10 @@ Para iniciar a programar en .net core, es importante que visualice todos los cam
 - <a href='https://swagger.io/'>Swagger</a>
 - <a href='https://restfulapi.net/'>REST</a>
 
-Para el desarrollo de frontend, ver los siguientes enlaces de algunos frameworks de javascripts que nos gustan: <a href='https://012.vuejs.org/guide/installation.html'>VueJS</a> y <a href='https://angular.io/'>Angular</a> con dos de las principales frameworks de desarrollo que se usan hoy en día. Otros frameworks de javascript importantes que puede considerar: ReactJs (el más popular) y Svelte.
+Para el desarrollo de frontend, ver los siguientes enlaces de algunos frameworks de javascripts que nos gustan: <a href='https://012.vuejs.org/guide/installation.html'>VueJS</a> y <a href='https://angular.io/'>Angular</a> con dos de las principales frameworks de desarrollo que se usan hoy en día. Otros frameworks de javascript importantes que puede considerar: ReactJs (el más popular) y Svelte. Importante indicar, que para la programación web basada en Javascript, debes prestar atención al NPM CLI para incluir paquetes de terceros en tus proyectos, así como ejecutar tu proyecto, compilar y construirlo. Buscar más información sobre:
+
+- [ ] NPM, Yarn.
+- [ ] Webpack, Gulp, Babel.
 
 Para las herramientas que nosotros manejamos en desarrollo web, los fullstacks deben tener claro como debe estar diseñada la plataforma de desarrollo:
 |Databases | Backend | Frontend|
@@ -80,10 +85,11 @@ Para las herramientas que nosotros manejamos en desarrollo web, los fullstacks d
 |Sql Server o MySQL|.net core api|angular, vue.js|
 |CosmoDB, MongoDB|.net core api|angular, vue.js|
 
-Cursos:
-- [ ] <a href='https://codewithmosh.com/p/asp-net-mvc'>Asp Net Core MVC</a>
-- [ ] <a href='https://www.youtube.com/user/programmingwithmosh?app=desktop'>Diferentes cursos de Mosh Hamedami</a>
-- [ ] <a href='https://www.vuemastery.com/courses'>Vue.Js</a>
+### Si deseas abundar más sobre programación, te dejo algunos enlaces donde he estudiado algunos cursos que me han interesado:
+- [ ] <a href='https://codewithmosh.com/p/asp-net-mvc'>Asp Net Core MVC</a>.
+- [ ] <a href='https://www.youtube.com/user/programmingwithmosh?app=desktop'>Diferentes cursos de Mosh Hamedami</a>.
+- [ ] <a href='https://www.vuemastery.com/courses'>Vue.Js</a>.
+- [ ] En pluralsight, Udemi existen excelentes materiales si quieres seguir abundando sobre estos temas.
 
 ## Base de Datos
 
