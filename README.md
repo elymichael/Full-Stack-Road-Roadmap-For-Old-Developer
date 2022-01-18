@@ -16,6 +16,7 @@ Este repositorio tiene como finalidad a ayudar a programadores de la vieja escue
 - [Base de Datos](#BasedeDatos)
 - [Manejo de Versiones](#Manejo-versiones)
 - [Construir tus Proyectos](#Construir-Proyectos)
+- [Conclusión](#Conclusión)
 
 # Inicio
 
@@ -114,6 +115,6 @@ No tenemos que ser un experto en docker para ser un buen fullstack developer, pe
   
 - [x] <a href='https://codewithmosh.com/p/the-ultimate-docker-course'>Curso de Docker<a/>
   
-## Agradecimientos
+## Conclusión
   
 Te damos las gracias por pasar por este artículo con el que buscamos aportar nuestro granito de arena para que buenos programadores puedan mejorar la forma de trabajar y romper con las barreras que no le permiten moverse de las posiciones donde se encuentran. Si quieren aportar a este artículo, son bienvenidos a realizar un PR con información que le pueda sumar a otros programadores.
