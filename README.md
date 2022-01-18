@@ -80,25 +80,30 @@ Para las herramientas que nosotros manejamos en desarrollo web, los fullstacks d
 |Sql Server o MySQL|.net core api|angular, vue.js|
 |CosmoDB, MongoDB|.net core api|angular, vue.js|
 
+Cursos:
+- [ ] <a href='https://codewithmosh.com/p/asp-net-mvc'>Asp Net Core MVC</a>
+- [ ] <a href='https://www.youtube.com/user/programmingwithmosh?app=desktop'>Diferentes cursos de Mosh Hamedami</a>
+- [ ] <a href='https://www.vuemastery.com/courses'>Vue.Js</a>
+
 ## Base de Datos
 
 Al momento de elegir una base de datos, debemos saber el tipo de información que vamos a almacenar, cada que tiempo vamos a acceder a la misma y cual es la finalidad de la información que deseamos almacenar.
 
-- Base de datos relacionar **(SQL):** 
-- Base de datos no relacionar **(NoSQL):**
-- Blob de archivos **Blob Storage:**
-- Tablas de datos **Table Storage:**
+- Base de datos relacionar **(SQL):** La base de datos relacionar es idear para esos modelos de datos donde necesitas almacenar la información en un modelo entidad - relación. Algunos sistema que son un buen ejemplo de este modelo: ERP, CRM y POS. Más detalles <a href='https://www.oracle.com/database/what-is-a-relational-database/'>aquí</a>. Las base de datos que utilizamos principalmente son SQL Server, MySQL, MariaDB(basado en MySQL). Existen otras muy conocidas como PostgresSQL, Oracle, MaxDB por mencionar solo 3 más.
+- Base de datos no relacionar **(NoSQL):** Este modelo es muy utilizado en algunos sistemas donde no se necesita un relación de datos padre-hijos. Por ejemplos: los post de un blog, una aplicación de CMS, un organizador de documentos y cualquier otro modelo que se base en almacenar documentos de datos. más información <a href='https://www.mongodb.com/es/nosql-explained'>aquí<a/>. La más popular es MongoDB, Microsoft tiene también CosmoDB que es muy buena.
+- Blob de archivos **Blob Storage:** Modelo donde guardaremos archivos de datos, imagenes de alta calidad, etc. <a href='https://azure.microsoft.com/es-es/services/storage/blobs/'>Expanda</a>
+- Tablas de datos **Table Storage:** Es un modelo NoSQL, pero que no va a tener muchos acceso a datos, un ejemplo, una aplicación para organizar libros digitales. <a href='https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview'>Detalles</a>
 
 ## Manejo de versiones
 
-GIT.
-SVN.
-Team Foundation Service.
-Visual Sourcesafe.
-Azure DevOps.
-
+Si tiene experiencia con otros sistemas de versiones, posiblemente el uso de GIT sea un poco intuitivo. Programadores que usaron algunos manejadores de versiones como: <b>SVN</b>, <b>Visual SourceSafe</b> y <b>Team Foundation Service</b> van a encontrar en git un herramienta parecido con un poco de exteroides para mejorar, explotar y proteger nuestro código. Para iniciar, le recomendamos usar la parte visual de GIT, ya sea GitHub Desktop o las integraciones que vienen con Visual Studio / Visual Studio Code. Además, Azure Devops está basado en GIT, por lo que si aprende uno, puede utilizar cualquiera de las versiones existente. Existe otras versiones menos conocidas, como Bonobo GIT Server, que te permite configurar tu propio servidor de GIT on premise.
+  
+- [ ] <a href='https://codewithmosh.com/p/the-ultimate-git-course'>Curso de GIT</a>
+  
 ## Construir Proyectos
-Docker.
-Kubernetes.
+  
+Si quiere montar tu proyecto de forma sencilla en cualquier servidor en Azure o AWS, construyendo tu proyecto en docker te permite poder replicarlo fácilmente en cualquier ambiente con la configuración que necesitas sin tener que lidiar con las incómodas instalaciones. Luego que tienes tu aplicaciones "dockerizada", solo necesitas tus contenedores donde la vas a ejecutar. En Visual Studio es muy sencillo montar una aplicación en docker utilizando generando tu dockerfile y dockercompose con unos cuantos clic. Un ejemplo <a href='https://docs.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/visual-studio-tools-for-docker'>aquí</a>
 
-<a href=''></a>
+No tenemos que ser un experto en docker para ser un buen fullstack developer, pero es importante que conozcamos los conceptos básicos y como funciona para saber para que plataforma estamos trabajando. Importante: al elegir tu tipo de imagen docker a usar, selecciona linux, ya que el docker se va creer con los mínimos requerimientos necesarios para correr tu aplicativo, distinto a uno basado en windows, donde prácticamente tienes el sistema completo.
+  
+- [ ] <a href='https://codewithmosh.com/p/the-ultimate-docker-course'>Curso de Docker<a/>
