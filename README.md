@@ -6,6 +6,8 @@ Este repositorio tiene como finalidad ayudar a programadores de la vieja escuela
 
 **Atención:** La idea de este repositorio es aportar nuestras ideas de como romper esas barreras que se convierten en escollo a algunos programadores para moverse de "stack" de desarrollo. De igual manera, le puede servir a un nuevo programador que desea iniciar en este ámbito.
 
+**Tiempo de Aprendizaje:** _6 a 8 meses dedicando 10 horas semanales_.
+
 ## Contenido
 
 - [Inicio](#Inicio)
