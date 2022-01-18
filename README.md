@@ -76,8 +76,8 @@ Para iniciar a programar en .net core, es importante que visualice todos los cam
 
 Para el desarrollo de frontend, ver los siguientes enlaces de algunos frameworks de javascripts que nos gustan: <a href='https://012.vuejs.org/guide/installation.html'>VueJS</a> y <a href='https://angular.io/'>Angular</a> con dos de las principales frameworks de desarrollo que se usan hoy en día. Otros frameworks de javascript importantes que puede considerar: ReactJs (el más popular) y Svelte. Importante indicar, que para la programación web basada en Javascript, debes prestar atención al NPM CLI para incluir paquetes de terceros en tus proyectos, así como ejecutar tu proyecto, compilar y construirlo. Buscar más información sobre:
 
-- [ ] NPM, Yarn.
-- [ ] Webpack, Gulp, Babel.
+- [x] NPM, Yarn.
+- [x] Webpack, Gulp, Babel.
 
 Para las herramientas que nosotros manejamos en desarrollo web, los fullstacks deben tener claro como debe estar diseñada la plataforma de desarrollo:
 |Databases | Backend | Frontend|
@@ -86,10 +86,10 @@ Para las herramientas que nosotros manejamos en desarrollo web, los fullstacks d
 |CosmoDB, MongoDB|.net core api|angular, vue.js|
 
 ### Si deseas abundar más sobre programación, te dejo algunos enlaces donde he estudiado algunos cursos que me han interesado:
-- [ ] <a href='https://codewithmosh.com/p/asp-net-mvc'>Asp Net Core MVC</a>.
-- [ ] <a href='https://www.youtube.com/user/programmingwithmosh?app=desktop'>Diferentes cursos de Mosh Hamedami</a>.
-- [ ] <a href='https://www.vuemastery.com/courses'>Vue.Js</a>.
-- [ ] En pluralsight, Udemi existen excelentes materiales si quieres seguir abundando sobre estos temas.
+- [x] <a href='https://codewithmosh.com/p/asp-net-mvc'>Asp Net Core MVC</a>.
+- [x] <a href='https://www.youtube.com/user/programmingwithmosh?app=desktop'>Diferentes cursos de Mosh Hamedami</a>.
+- [x] <a href='https://www.vuemastery.com/courses'>Vue.Js</a>.
+- [ ] En **pluralsight**, **Udemi** existen excelentes materiales si quieres seguir abundando sobre estos temas.
 
 ## Base de Datos
 
@@ -104,7 +104,7 @@ Al momento de elegir una base de datos, debemos saber el tipo de información qu
 
 Si tiene experiencia con otros sistemas de versiones, posiblemente el uso de GIT sea un poco intuitivo. Programadores que usaron algunos manejadores de versiones como: <b>SVN</b>, <b>Visual SourceSafe</b> y <b>Team Foundation Service</b> van a encontrar en git un herramienta parecido con un poco de exteroides para mejorar, explotar y proteger nuestro código. Para iniciar, le recomendamos usar la parte visual de GIT, ya sea GitHub Desktop o las integraciones que vienen con Visual Studio / Visual Studio Code. Además, Azure Devops está basado en GIT, por lo que si aprende uno, puede utilizar cualquiera de las versiones existente. Existe otras versiones menos conocidas, como Bonobo GIT Server, que te permite configurar tu propio servidor de GIT on premise.
   
-- [ ] <a href='https://codewithmosh.com/p/the-ultimate-git-course'>Curso de GIT</a>
+- [x] <a href='https://codewithmosh.com/p/the-ultimate-git-course'>Curso de GIT</a>
   
 ## Construir Proyectos
   
@@ -112,4 +112,8 @@ Si quiere montar tu proyecto de forma sencilla en cualquier servidor en Azure o 
 
 No tenemos que ser un experto en docker para ser un buen fullstack developer, pero es importante que conozcamos los conceptos básicos y como funciona para saber para que plataforma estamos trabajando. Importante: al elegir tu tipo de imagen docker a usar, selecciona linux, ya que el docker se va creer con los mínimos requerimientos necesarios para correr tu aplicativo, distinto a uno basado en windows, donde prácticamente tienes el sistema completo.
   
-- [ ] <a href='https://codewithmosh.com/p/the-ultimate-docker-course'>Curso de Docker<a/>
+- [x] <a href='https://codewithmosh.com/p/the-ultimate-docker-course'>Curso de Docker<a/>
+  
+  ## Agradecimientos
+  
+  Te damos las gracias por pasar por este artículo con el que buscamos aportar nuestro granito de arena para que buenos programadores puedan mejorar la forma de trabajar y romper con las barreras que no le permiten moverse de las posiciones donde se encuentran. Si quieren aportar a este artículo, son bienvenidos a realizar un PR con información que le pueda sumar a otros programadores.
