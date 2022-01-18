@@ -1,10 +1,10 @@
 # Full-Stack-Road-Roadmap-For-Old-Net-Developer
 
-### Algunos programadores me contactan para preguntarme como hice la transición de la antigua forma de programar al estilo de hoy en día.
+### La manera de entregar un entregable en desarrollo de software ha cambiado y algunos programadores tienen dudas sobre como hacer la transición de la manera que ellos conocen de programar al estilo de hoy en día.
 
-Este repositorio tiene como finalidad a ayudar a programadores de la vieja escuela hacer la transición de la antigua metodología de trabajo a la nueva metodología, y dentro de este apartado, hemos querido mostrar las diferencias de las aplicaciones de manejo de versiones, nuevos patrones de diseño, cambios en los frameworks de backend y frontend.
+Este repositorio tiene como finalidad ayudar a programadores de la vieja escuela a hacer la transición de las antiguas metodologías de trabajo que ellos usan en su día a día a las nuevas metodologías de trabajo. Dentro de este apartado, hemos querido mostrar las diferencias que existen en las aplicaciones de manejo de versiones, unit test, patrones de diseño, cambios en los frameworks de backend y frontend.
 
-**Atención:** La idea de este repositorio es aportar nuestras ideas de como romper esa barrera que no permite a algunos programadores hacer la transición a esta nueva metodología de trabajo. De igual manera, le puede servir a un nuevo programador que desea iniciar en este ámbito.
+**Atención:** La idea de este repositorio es aportar nuestras ideas de como romper esas barreras que se convierten en escollo a algunos programadores para moverse de "stack" de desarrollo. De igual manera, le puede servir a un nuevo programador que desea iniciar en este ámbito.
 
 ## Contenido
 
@@ -20,7 +20,7 @@ Este repositorio tiene como finalidad a ayudar a programadores de la vieja escue
 
 ## Inicio
 
-Este tutorial está orientado principalmente a programadores FullStack Developer que trabajen con tecnología .Net y tengan conocimiento de Javascript. Vas a sentirte frustrado por momento, pero la idea es que puedas ir familiarizandote con algunas tecnologías que en un momento pueden ser un dolor de cabeza para ustedes. Hay un mercado lleno de oportunidades ahí afuera, y es una gran ventaja conocer las nuevas metodologías de trabajo que se usan hoy en día.
+Este tutorial está orientado principalmente a programadores FullStack Developer que trabajan con tecnología .Net y tengan conocimiento de Javascript. Vas a sentirte frustrado por momento, pero la idea es que puedas ir familiarizandote con algunas tecnologías que en un momento pueden ser un dolor de cabeza para ustedes. Hay un mercado lleno de oportunidades ahí afuera, y es una gran ventaja conocer las nuevas metodologías de trabajo que se usan hoy en día.
 
 ## Prerequisitos
 
@@ -44,18 +44,20 @@ Si vas a trabajar a con tecnología .net vamos a entrar en contexto con las herr
 
 Dependiendo de la tarea a realizar, debemos elegir una metodología de trabajo específica, las que trataremos desde el punto más general al mínimo detalle necesario para publicar una herramienta. Vamos a iniciar con la forma de trabajo de las compañías modernas:
 
-Para trabajar en compañías de forma remota, es importante poner sobre la mesa que cosas debemos cuidar para realizar una buena labor. Lo primero, debemos respetar los horarios de trabajo y conocer las metodologías de trabajo <a href='https://www.atlassian.com/es/agile/manifesto'>agile</a> (<a href='https://www.atlassian.com/es/agile/scrum'>Agile Scrum</a> y <a href='https://www.atlassian.com/es/agile/kanban'>Kanban</a> principalmente) que utilizan muchas de estas empresas. Aunque esté trabajando remoto, debe respetar los horarios de trabajo, ser comunicativo, ser independiente y trabajar de forma organizada. Al trabajar remoto, se espera que el programador se encuentre capacitado para realizar sus tareas de la manera más independiente posible.
+Para trabajar en compañías de forma remota, es importante poner sobre la mesa que cosas debemos cuidar para realizar una buena labor. Lo primero, debemos respetar los horarios de trabajo y conocer sus metodologías de trabajo <a href='https://www.atlassian.com/es/agile/manifesto'>agile</a> (<a href='https://www.atlassian.com/es/agile/scrum'>Agile Scrum</a> y <a href='https://www.atlassian.com/es/agile/kanban'>Kanban</a> principalmente) que utilizan muchas de estas empresas. Aunque esté trabajando remoto, debe respetar los horarios de trabajo, ser comunicativo, ser independiente y trabajar de forma organizada. Al trabajar remoto, se espera que el programador se encuentre capacitado para realizar sus tareas de la manera más independiente posible.
+
+Cuando comiences a leer sobre metodologías ágiles, te vas a encontrar con mucho texto, pero puedes preguntar a cualquier Project Management que te explique con detalles el proceso y no se tomará más de 2 horas en ponerte en contexto.
 
 Para la programación de .Net existen diversos patrones que debe conocer antes de iniciar el desarrollo de su herramienta:
 
-- **Monolithi:** toda la lógica de la aplicación se encuentra en un solo proyecto.
-- **All In One:** toda la lógica se encuentra en un solo proyecto, dividido en diversos folder lógicos.
-- **NLayer:** Toda la ógica se encuentra dividida por proyectos dividio en una capa de acceso a datos, una capa de negocios y una interfaz de usuario.
+- **Monolithi:** toda la lógica de la aplicación se encuentra en un solo proyecto. Es lo que acostumbrabamos a utilizar a principio del 2000 en muchas empresas, un solo sistema con todo incluído en el mismo proyecto sin ninguna sub-división lógica de por medio.
+- **All In One:** toda la lógica se encuentra en un solo proyecto, pero, a diferencia de los proyectos monolíticos, se encuentra dividido en diversos folder lógicos que permite organizar mejor el proyecto.
+- **NLayer:** Toda la ógica se encuentra dividida por proyectos dividio en una capa de acceso a datos, una capa de negocios y una interfaz de usuario. Es la manera más común (es la que me gusta más, pero está siendo sustituida por Clean Architecture.
 - **Clean Architecture:** como su nombre lo indica, es la arquitectura limpia, basada en el uso de interface e injección de dependencia.
 
 Para extender más el contenido de los principales patrones de diseño en .Net, visita el siguiente <a href='https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures'>enlace</a> para obtener más detalle.
 
-En el caso de frontend, los patrones de diseños más utilizados son: <b>MVC</b> y <b>MVVM</b>, Vue tiene una interesante explicación en el siguiente <a href='https://012.vuejs.org/guide/'>enlace</a>.
+En el caso de frontend, los patrones de diseños más utilizados son: <b>MVC</b> y <b>MVVM</b>, Vue tiene una interesante explicación en el siguiente <a href='https://012.vuejs.org/guide/'>enlace</a>. En .net core hay buenas alternativas para desarrollar el frontend, haciendo uso de Razor y Blazor.
 
 Si estás trabajando con otras tecnologías distinto a .net, vamos a mostrarte como los nuevos desarrolladores tienen sub-divididos los fullstack de acuerdo a las tecnologías que trabajan:
 
@@ -102,7 +104,18 @@ Existen unos conceptos básicos que si lo aprenden, sin importa la tecnología, 
 - [x] <a href='https://codewithmosh.com/p/asp-net-mvc'>Asp Net Core MVC</a>.
 - [x] <a href='https://www.youtube.com/user/programmingwithmosh?app=desktop'>Diferentes cursos de Mosh Hamedami</a>.
 - [x] <a href='https://www.vuemastery.com/courses'>Vue.Js</a>.
-- [ ] En **pluralsight**, **Udemi** existen excelentes materiales si quieres seguir abundando sobre estos temas.
+- [ ] **Pluralsight**
+    - Become a Full-stack .Net Developer, Mosh Hamedami. 
+    - Aschitecting ASP.Net Core Applications: Best Practices, Gill Cleeren.
+    - Building a Web App with ASP.Net Core, MVC, Enity Framework Core, Bootstrap and Angular, Shawn Wildermuth.
+- [ ] **Udemi** 
+    - Existen excelentes materiales si quieres seguir abundando sobre estos temas.
+
+Las cosas no terminan ahí, como podrán validar en los cursos detallado arriba, debe prestar atención a la parte de pruebas. Es necesario que nuestros sistemas funciones con una buena implementación de "Unit Test" en nuestros proyectos. En el caso de Net, podemos crear test unitarios usando: **XUnit, NUnit, MSTest**. En el caso de Javascript, tenemos varias versiones muy utilizadas: **Jest, Jasmine, Mocha**. Si desean profundizar un poco más sobre estos temas, pueden consultar algunas librerías más pesadas como son: **Cypress y Selenium** para mencionar dos muy conocidas. Si deseas abundar sobre unit test, pueden consultar las ayudas de Microsoft:
+- <a href='https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2022'>aquí</a>.
+- <a href='https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices'>aquí</a>.
+
+Otros conceptos que deben considerar es integrar sistemas de logging de errores en el backend para monitoreos de rendimiento, trace de errores, logs, etc. En Net existen muchas implementaciones importantes: **Serilog, NLog, Log4Net y Loggin Extensions** y los mismos pueden ser visualizados en otras herramientas para esos fines: **Application Insights, NewRelic, Dynatrace, Prometheus**.
 
 ## Base de Datos
 
@@ -124,9 +137,21 @@ Si tiene experiencia con otros sistemas de versiones, posiblemente el uso de GIT
 Si quiere montar tu proyecto de forma sencilla en cualquier servidor en Azure o AWS, construyendo tu proyecto en docker te permite poder replicarlo fácilmente en cualquier ambiente con la configuración que necesitas sin tener que lidiar con las incómodas instalaciones. Luego que tienes tu aplicaciones "dockerizada", solo necesitas tus contenedores donde la vas a ejecutar. En Visual Studio es muy sencillo montar una aplicación en docker utilizando generando tu dockerfile y dockercompose con unos cuantos clic. Un ejemplo <a href='https://docs.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/visual-studio-tools-for-docker'>aquí</a>
 
 No tenemos que ser un experto en docker para ser un buen fullstack developer, pero es importante que conozcamos los conceptos básicos y como funciona para saber para que plataforma estamos trabajando. Importante: al elegir tu tipo de imagen docker a usar, selecciona linux, ya que el docker se va creer con los mínimos requerimientos necesarios para correr tu aplicativo, distinto a uno basado en windows, donde prácticamente tienes el sistema completo.
-  
+
+### CI/CD
+
+Muchas aplicaciones van a terminar directamente en el sistema operativo del usuario o en granjas de servidores donde se ejecutan nuestras aplicaciones. Para eso, necesitamos aplicar CI/CD (Continues Integration, Continues Delivery), que son herramientas que permiten distribuir aplicaciones a clientes mediante un proceso automatizado que se ejecuta luego de terminado el desarrollo. Para eso pueden verificar las siguientes herramientas:
+
+- <a href='https://www.jenkins.io/'>Jenkins</a>
+- <a href='https://azure.microsoft.com/en-us/services/devops/pipelines/'>Azure Devops</a>
+- <a href='https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages'>Github Pipelines</a>
+- <a href='https://appcenter.ms/create-account'>App Center</a>
+- <a href='https://about.gitlab.com/'>Gitlab</a>
+
+### Documentaciones
 - [x] <a href='https://codewithmosh.com/p/the-ultimate-docker-course'>Curso de Docker</a>
+- [x] <a href='https://www.redhat.com/es/topics/devops/what-is-ci-cd'>CI/CD</a>
   
 ## Conclusión
   
-Te damos las gracias por pasar por este artículo con el que buscamos aportar nuestro granito de arena para que buenos programadores puedan mejorar la forma de trabajar y romper con las barreras que no le permiten moverse de las posiciones donde se encuentran. Si quieren aportar a este artículo, son bienvenidos a realizar un PR con información que le pueda sumar a otros programadores. Si desea seguir aprendiendo por tu cuenta de Ciencia de la Computación, dale un vistazo al siguiente enlace: https://github.com/ossu/computer-science.
+Si quieren aportar a este artículo, son bienvenidos a realizar un PR con información que le pueda sumar a otros programadores. Si desea seguir aprendiendo por tu cuenta de Ciencia de la Computación, dale un vistazo al siguiente enlace: https://github.com/ossu/computer-science.
