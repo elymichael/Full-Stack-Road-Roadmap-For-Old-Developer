@@ -8,20 +8,20 @@ Este repositorio tiene como finalidad a ayudar a programadores de la vieja escue
 
 ## Contenido
 
-- [Inicio](##Inicio)
-- [Prerequisitos](##Prerequisitos)
-- [Editores de Programación](##EditoresdeProgramación)
-- [Metodología](##Metodología)
-- [Desarrollo](##Desarrollo)
-- [Base de Datos](##BasedeDatos)
-- [Manejo de Versiones](##ManejodeVersiones)
-- [Construir tus Proyectos](##ConstruirtusProyectos)
+- [Inicio](#Inicio)
+- [Prerequisitos](#Prerequisitos)
+- [Editores de Programación](#EditoresdeProgramación)
+- [Metodología](#Metodología)
+- [Desarrollo](#Desarrollo)
+- [Base de Datos](#BasedeDatos)
+- [Manejo de Versiones](#Manejoversiones)
+- [Construir tus Proyectos](#ConstruirProyectos)
 
-## Inicio
+# Inicio
 
 Este tutorial está orientado principalmente a programadores FullStack Developer que trabajen con tecnología .Net y tengan conocimiento de Javascript. Vas a sentirte frustrado por momento, pero la idea es que puedas ir familiarizandote con algunas tecnologías que en un momento pueden ser un dolor de cabeza para ustedes. Hay un mercado lleno de oportunidades ahí afuera, y es una gran ventaja conocer las nuevas metodologías de trabajo que se usan hoy en día.
 
-## Prerequisitos
+# Prerequisitos
 
 - [x] **Inglés.** Gran parte de la información y documentaciones que podemos encontrar hoy se encuentra en inglés y las mayorías de las empresas tratan sus comunicaciones internas en inglés.
 - [x] **Instalación Visual Studio y Visual Studio Code.** Como indiqué anteriormente, vamos a mostrar una ruta de programación para **Full Stack Net Developer**.
@@ -29,7 +29,7 @@ Este tutorial está orientado principalmente a programadores FullStack Developer
 - [x] **Descarga Github Desktop.** Vamos a descargar github desktop para administrar los cambios en nuestro repositorios desde ahí.
 - [x] **Instalación NodeJs**. Instalar NodeJS para trabajar con nuestras librerías de javascript.
 
-## Editores de Programación
+# Editores de Programación
 
 Si vas a trabajar a con tecnología .net vamos a entrar en contexto con las herramientas que se usan. Desde hace unos años, Microsoft ha liberado tanto sus frameworks como sus editores de programación. Microsoft ofrece dos frameworks principales, la versión conocida .Net que es el framework para desarrollo de aplicaciones que se van a ejecutar en sistemas operativos Windows y .Net core, que es la evolución de .Net, un framework open source que se puede ejecutar en cualquier sistema operativo. 
 
@@ -39,7 +39,7 @@ Si vas a trabajar a con tecnología .net vamos a entrar en contexto con las herr
 - **Github.** Crea tu cuenta de Git en la siguiente ruta: <a href='https://github.com/'>Github.com</a>. Aquí vas a guardar los distintos repositorios de tus proyectos. La administración de tus proyectos lo puedes hacer a través de <a href='https://desktop.github.com/'>Github Desktop</a> o usando las herramientas que vienen integradas tanto en Visual Studio como Visual Studio Code.
 - **NodeJs.** Como vamos a ver como configurar algunos frameworks de javascript, necesitaremos de <a href='https://nodejs.org/es/download/'>NodeJs</a>. Los frameworks de javascript que vamos a mostrar son **VueJs** y **Angular CLI**.
 
-## Metodología
+# Metodología
 
 Dependiendo de la tarea a realizar, debemos elegir una metodología de trabajo específica, las que trataremos desde el punto más general al mínimo detalle necesario para publicar una herramienta. Vamos a iniciar con la forma de trabajo de las compañías modernas:
 
@@ -63,7 +63,7 @@ Si estás trabajando con otras tecnologías distinto a .net, vamos a mostrarte c
 - [x] MEAN: MongoDB, Express, AngularJs, Node.Js.
 - [x] LAAMP: Linux, Apache, Angular, MySQL, PHP.
 
-## Desarrollo
+# Desarrollo
 
 Para iniciar a programar en .net core, es importante que visualice todos los cambios que ha sufrido <a href='https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history'>C#</a> en los últimos años para poder adaptarse a esta nueva forma de escribir el código. En .Net debe prestar atención a:
 
@@ -91,7 +91,7 @@ Para las herramientas que nosotros manejamos en desarrollo web, los fullstacks d
 - [x] <a href='https://www.vuemastery.com/courses'>Vue.Js</a>.
 - [ ] En **pluralsight**, **Udemi** existen excelentes materiales si quieres seguir abundando sobre estos temas.
 
-## Base de Datos
+# BasedeDatos
 
 Al momento de elegir una base de datos, debemos saber el tipo de información que vamos a almacenar, cada que tiempo vamos a acceder a la misma y cual es la finalidad de la información que deseamos almacenar.
 
@@ -100,13 +100,13 @@ Al momento de elegir una base de datos, debemos saber el tipo de información qu
 - Blob de archivos **Blob Storage:** Modelo donde guardaremos archivos de datos, imagenes de alta calidad, etc. <a href='https://azure.microsoft.com/es-es/services/storage/blobs/'>Expanda</a>
 - Tablas de datos **Table Storage:** Es un modelo NoSQL, pero que no va a tener muchos acceso a datos, un ejemplo, una aplicación para organizar libros digitales. <a href='https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview'>Detalles</a>
 
-## Manejo de versiones
+# Manejodeversiones
 
 Si tiene experiencia con otros sistemas de versiones, posiblemente el uso de GIT sea un poco intuitivo. Programadores que usaron algunos manejadores de versiones como: <b>SVN</b>, <b>Visual SourceSafe</b> y <b>Team Foundation Service</b> van a encontrar en git un herramienta parecido con un poco de exteroides para mejorar, explotar y proteger nuestro código. Para iniciar, le recomendamos usar la parte visual de GIT, ya sea GitHub Desktop o las integraciones que vienen con Visual Studio / Visual Studio Code. Además, Azure Devops está basado en GIT, por lo que si aprende uno, puede utilizar cualquiera de las versiones existente. Existe otras versiones menos conocidas, como Bonobo GIT Server, que te permite configurar tu propio servidor de GIT on premise.
   
 - [x] <a href='https://codewithmosh.com/p/the-ultimate-git-course'>Curso de GIT</a>
   
-## Construir Proyectos
+# ConstruirProyectos
   
 Si quiere montar tu proyecto de forma sencilla en cualquier servidor en Azure o AWS, construyendo tu proyecto en docker te permite poder replicarlo fácilmente en cualquier ambiente con la configuración que necesitas sin tener que lidiar con las incómodas instalaciones. Luego que tienes tu aplicaciones "dockerizada", solo necesitas tus contenedores donde la vas a ejecutar. En Visual Studio es muy sencillo montar una aplicación en docker utilizando generando tu dockerfile y dockercompose con unos cuantos clic. Un ejemplo <a href='https://docs.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/visual-studio-tools-for-docker'>aquí</a>
 
