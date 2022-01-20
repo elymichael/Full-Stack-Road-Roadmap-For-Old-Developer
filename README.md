@@ -68,6 +68,16 @@ Si estás trabajando con otras tecnologías distinto a .net, vamos a mostrarte c
 - [x] MEAN: MongoDB, Express, AngularJs, Node.Js.
 - [x] LAAMP: Linux, Apache, Angular, MySQL, PHP.
 
+### Arquitectura de Sofware
+
+Hoy en día además de entregar un software de calidad es importante entregar softwares escalables y mantenibles en el tiempo. Para eso tenemos una series de recomendaciones conocidos como principios sólidos. Veamos:
+
+1. **Single Responsability Principle (SRP):** Un módulo solo debe tener una razón de cambio, por lo que una clase debe estar destinada a una única responsabilidad, sin mezclarla con la de otros.
+2. **Open/Close Principle (OCP):** Una clase debe estar abierto para extensiones, pero cerrado para modificaciones. Las clases deben ser extensibles en otras clases. Esto puede ser varias clases dependiendo de una misma Interface o a través de clases parciales.
+3. **Liskov substitution Principle (LSP):** Si cambio algo en una clase debe ser transparente para quien la utilice. Es decir, si cambias algo en la clase base, no debe afectar la clase que hereda.
+4. **Interface Segregation Principle (ISP):** Segregar las funciones en interfaces específica, que una sola interfaz con muchas funciones que no van a usarse en una clase específica.
+5. **Dependency Inversion Principle (DIP):** Las clases deben no deben depender de métodos en clases de bajo nivel, para eso deben usar las abstracciones a través de interfaces. Esto es ideal para Unit Test y poder implementar un code coverage con un alto porcentaje de cobertura.
+
 ## Desarrollo
 
 Para iniciar a programar en .net core, es importante que visualice todos los cambios que ha sufrido <a href='https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history'>C#</a> en los últimos años para poder adaptarse a esta nueva forma de escribir el código. En .Net debe prestar atención a:
