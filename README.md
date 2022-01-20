@@ -127,7 +127,7 @@ Las cosas no terminan ahí, como podrán validar en los cursos detallado arriba,
 - <a href='https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2022'>Unit Test Basic</a>.
 - <a href='https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices'>Unit Test Best Practices</a>.
 
-Otros conceptos que deben considerar es integrar sistemas de logging de errores en el backend para monitoreos de rendimiento, trace de errores, logs, etc. En Net existen muchas implementaciones importantes: **Serilog, NLog, Log4Net y Loggin Extensions** y los mismos pueden ser visualizados en otras herramientas para esos fines: **Application Insights, NewRelic, Dynatrace, Prometheus**.
+Otros conceptos que deben considerar es integrar sistemas de logging de errores en el backend para monitoreos de rendimiento, trace de errores, logs, etc. En Net existen muchas implementaciones importantes: **Serilog, NLog, Log4Net y Loggin Extensions** y los mismos pueden ser visualizados en otras herramientas para esos fines: **Application Insights, NewRelic, Dynatrace, Prometheus, Nagios**.
 
 ## Base de Datos
 
