@@ -114,8 +114,8 @@ Existen unos conceptos básicos que si lo aprenden, sin importa la tecnología, 
     - Existen excelentes materiales si quieres seguir abundando sobre estos temas.
 
 Las cosas no terminan ahí, como podrán validar en los cursos detallado arriba, debe prestar atención a la parte de pruebas. Es necesario que nuestros sistemas funciones con una buena implementación de "Unit Test" en nuestros proyectos. En el caso de Net, podemos crear test unitarios usando: **XUnit, NUnit, MSTest**. En el caso de Javascript, tenemos varias versiones muy utilizadas: **Jest, Jasmine, Mocha**. Si desean profundizar un poco más sobre estos temas, pueden consultar algunas librerías más pesadas como son: **Cypress y Selenium** para mencionar dos muy conocidas. Si deseas abundar sobre unit test, pueden consultar las ayudas de Microsoft:
-- <a href='https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2022'>aquí</a>.
-- <a href='https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices'>aquí</a>.
+- <a href='https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2022'>Unit Test Basic</a>.
+- <a href='https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices'>Unit Test Best Practices</a>.
 
 Otros conceptos que deben considerar es integrar sistemas de logging de errores en el backend para monitoreos de rendimiento, trace de errores, logs, etc. En Net existen muchas implementaciones importantes: **Serilog, NLog, Log4Net y Loggin Extensions** y los mismos pueden ser visualizados en otras herramientas para esos fines: **Application Insights, NewRelic, Dynatrace, Prometheus**.
 
@@ -127,6 +127,21 @@ Al momento de elegir una base de datos, debemos saber el tipo de información qu
 - Base de datos no relacionar **(NoSQL):** Este modelo es muy utilizado en algunos sistemas donde no se necesita un relación de datos padre-hijos. Por ejemplos: los post de un blog, una aplicación de CMS, un organizador de documentos y cualquier otro modelo que se base en almacenar documentos de datos. más información <a href='https://www.mongodb.com/es/nosql-explained'>aquí</a>. La más popular es MongoDB, Microsoft tiene también CosmoDB que es muy buena.
 - Blob de archivos **Blob Storage:** Modelo donde guardaremos archivos de datos, imagenes de alta calidad, etc. <a href='https://azure.microsoft.com/es-es/services/storage/blobs/'>Expanda</a>
 - Tablas de datos **Table Storage:** Es un modelo NoSQL, pero que no va a tener muchos acceso a datos, un ejemplo, una aplicación para organizar libros digitales. <a href='https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview'>Detalles</a>.
+
+### Acceso a Datos
+
+Desde visual studio 6 teníamos la costumbre de usar ADO para conectarnos a base de datos desde Visual basic y luego ADO.Net para conexiones desde .Net. Todavía ADO.Net sigue siendo la mejor herramienta para acceso a datos desde la tecnología .Net, pero Microsoft ha ido empujando el uso de otros frameworks, apostando principalmente por el ORM Open Source <a href='https://www.entityframeworktutorial.net/what-is-entityframework.aspx'>Entity Framework</a>, que permite acceder a datos a través de clases, en vez de datasets, datatables, reader como lo usabamos en el antiguo ADO.Net. Además, estos ORM te ayudan a mejorar los procesos de Unit test, ya que usar mock en ADO.Net es un proceso complicado.
+
+Adicional a Entity Framework, existen otros micro-orm famosos como: <a href='https://dapper-tutorial.net/dapper'>Dapper</a>, que es un simple mapeador de clases, más rápido y eficiente que el Entity Framework, ya que es una versión más ligera. Lo que muchos developers no saben, y cuando digo muchos, es bastante, Entity framework y Dapper trabajan sobre ADO.Net, funcionan más bien como Wrapper. Con esta información, usted puede generar su propia información sobre que tecnología es más eficiente.
+
+Una tecnología que tiene cierta fama, es <a href='https://graphql.org/'>GraphQL</a>, que te permite realizar tus queries desde el UI a través de la API de una forma simple y llana.
+
+### Otros canales de aprendizaje
+
+- <a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/'>Javascript Algorithms</a>
+- <a href='https://www.freecodecamp.org/learn/responsive-web-design/'>Responsive Web Design</a>
+- <a href='https://www.w3schools.com/'>W3 School (HTML, Javascript, CSS)</a>
+- <a href='https://web.dev/?gclid=Cj0KCQiAraSPBhDuARIsAM3Js4r_beGNjmIZ6gg73xYxhnqjufVAYTyQifc7eRTaNxFFGl31RjfIX2IaAlHQEALw_wcB'>Web.Dev</a>
 
 ## Manejo versiones
 
