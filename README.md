@@ -5,7 +5,7 @@
 Este repositorio tiene como finalidad ayudar a programadores de la vieja escuela a hacer la transición de las antiguas metodologías de trabajo que ellos usan en su día a día a las nuevas metodologías de trabajo. Dentro de este apartado, hemos querido mostrar las diferencias que existen en las aplicaciones de manejo de versiones, unit test, patrones de diseño, cambios en los frameworks de backend y frontend.
 
 **Atención:** La idea de este repositorio es aportar nuestras ideas de como romper esas barreras que se convierten en escollo a algunos programadores para moverse de "stack" de desarrollo. De igual manera, le puede servir a un nuevo programador que desea iniciar en este ámbito.
-![Portfolio](https://github.com/elymichael/Full-Stack-Road-Roadmap-For-Old-Developer/edit/main/portfolio.png)
+![Portfolio](https://github.com/elymichael/Full-Stack-Road-Roadmap-For-Old-Developer/blob/main/portfolio.png)
 **Tiempo de Aprendizaje:** _6 a 8 meses dedicando 10 horas semanales_.
 
 ## Contenido
